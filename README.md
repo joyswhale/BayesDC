@@ -24,6 +24,7 @@ This is a basic example which shows you how to estimate the degree of dosage com
 ``` r
 library(BayesDC)
 data("ped1")
+data("covar")
 library("rstan")
 options(mc.cores = parallel::detectCores())
 rstan_options(auto_write = TRUE)
